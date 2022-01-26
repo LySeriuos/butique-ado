@@ -89,7 +89,7 @@ ACCOUNT_EMAIL_VERIFICATION = 'mandatory'
 ACCOUNT_SIGNUP_EMAIL_ENTER_TWICE = True
 ACCOUNT_USERNAME_MIN_LENGTH = 4
 LOGIN_URL = '/accounts/login/'
-LOGIN_REDIRECT_URL = '/'  # use success to get information if mail get thru"
+LOGIN_REDIRECT_URL = '/success'  # use success to get information if mail get thru"
 
 WSGI_APPLICATION = 'boutique_ado.wsgi.application'
 
